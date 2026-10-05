@@ -1,1 +1,1 @@
-require("general")
+require("emyasa.general")
