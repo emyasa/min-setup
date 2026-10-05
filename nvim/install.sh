@@ -10,4 +10,4 @@ mkdir -p ~/.local/share/nvim/mason/packages/jdtls/
 cp -r ./local-share/java-jdtls/ ~/.local/share/nvim/mason/packages/jdtls/
 
 mkdir -p ~/.local/bin/
-cp ./local-bin/ ~/.local/bin/
+cp -r ./local-bin/ ~/.local/bin/
