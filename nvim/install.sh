@@ -1,5 +1,9 @@
 #!/bin/bash
 
+mkdir -p ~/.local/nvim/
+cp -r ./standalone/ ~/.local/nvim/
+ln -s ~/.local/nvim/bin/nvim ~/.local/bin/nvim
+
 mkdir -p ~/.config/nvim/
 cp -r ./config/ ~/.config/nvim/
 
