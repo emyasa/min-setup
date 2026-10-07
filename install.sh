@@ -17,3 +17,8 @@ chmod +x install.sh
 cd ../zshrc/
 chmod +x install.sh
 ./install.sh
+
+cd /tmp
+curl -fsL https://raw.githubusercontent.com/emyasa/wimc/refs/heads/gni/install.sh -o wimc_install.sh
+chmod +x wimc_install.sh
+./wimc_install.sh
