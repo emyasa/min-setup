@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir -p ~/.local/bin/
+cp -r ./local-bin/ ~/.local/bin/
+
 mkdir -p ~/.local/nvim/
 cp -r ./standalone/ ~/.local/nvim/
 ln -s ~/.local/nvim/bin/nvim ~/.local/bin/nvim
@@ -12,6 +15,3 @@ cp -r ./local-share/packer/ ~/.local/share/nvim/site/pack/packer/start/
 
 mkdir -p ~/.local/share/nvim/mason/packages/jdtls/
 cp -r ./local-share/java-jdtls/ ~/.local/share/nvim/mason/packages/jdtls/
-
-mkdir -p ~/.local/bin/
-cp -r ./local-bin/ ~/.local/bin/
